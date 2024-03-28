@@ -1,0 +1,65 @@
+.content{
+    margin-top: 100px;
+    margin-left: 80px;
+    width: 700px;
+    height: 700px;
+    background-color: antiquewhite;
+    align-items: center;
+    align-content: center;
+    border-radius: 50px;
+}
+
+label{
+  margin-left: 80px;
+  margin-top: auto;
+  /* text-align: center; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="text"], input[type="number"] {
+    border: 2px solid #0077be; /* warna garis tepi */
+    border-radius: 5px; /* radius sudut */
+    padding: 8px; /* jarak antara teks dengan garis tepi */
+    font-size: 16px; /* ukuran font */
+    color: #333; /* warna teks */
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  
+  input[type="submit"] {
+    background-color: #0077be; /* warna latar belakang */
+    color: #fff; /* warna teks */
+    border: none; /* hilangkan garis tepi */
+    border-radius: 5px; /* radius sudut */
+    padding: 10px 20px; /* jarak antara teks dengan garis tepi */
+    font-size: 16px; /* ukuran font */
+    cursor: pointer; /* tampilan kursor saat hover */
+    margin-top: 80px;
+    margin-left: 100px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #005fa3; /* warna latar belakang saat hover */
+  }
+
+  select{
+    text-align: center;
+    width: 195px;
+    border: 2px solid #0077be; /* warna garis tepi */
+    border-radius: 5px; /* radius sudut */
+    padding: 8px; /* jarak antara teks dengan garis tepi */
+    font-size: 16px; /* ukuran font */
+    color: #333; /* warna teks */
+    margin-top: 30px;
+    margin-left: 50px;
+    /* width: max-content; */
+  }
+  
+  .content .judul{
+    margin-top: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    align-items: center;
+    align-content: center;
+  }

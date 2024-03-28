@@ -1,0 +1,16 @@
+.container{
+    width: 1654px;
+    height: 2339px;
+    /* width: 800px;
+    height: 900px; */
+    align-content: center;
+    align-items: center;
+    padding-left: 90px;
+}
+
+h1{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
